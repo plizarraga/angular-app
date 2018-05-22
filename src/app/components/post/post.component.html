@@ -1,0 +1,10 @@
+<div class="card mb-3">
+  <div class="card-body">
+      <h5 class="card-title">
+        {{post.title}}
+      </h5>
+    <p class="card-text">{{post.body}}</p>
+    <a routerLink="/post/edit/{{post.id}}" class="card-link">Edit</a>
+    <a class="card-link btn btn-link text-danger" (click)="onDelete()">Delete</a>
+  </div>
+</div>

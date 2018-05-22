@@ -1,0 +1,33 @@
+<form #postForm="ngForm" (ngSubmit)="onSubmit(postForm)">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input
+      type="text"
+      class="form-control"
+      name="title"
+      #postTitle="ngModel"
+      [ngClass]="{'is-invalid': postTitle.errors && postTitle.touched}"
+      [(ngModel)]="title"
+      minlength="3"
+      required
+    >
+    <div [hidden]="!postTitle.errors?.required" class="invalid-feedback">Title required</div>
+    <div [hidden]="!postTitle.errors?.minlength" class="invalid-feedback">Must be a least 3 characters</div>
+  </div>
+  <div class="form-group">
+    <label for="body">Body</label>
+    <input
+      type="text"
+      class="form-control"
+      name="body"
+      #postBody="ngModel"
+      [ngClass]="{'is-invalid': postBody.errors && postBody.touched}"
+      [(ngModel)]="body"
+      minlength="5"
+      required
+    >
+    <div [hidden]="!postBody.errors?.required" class="invalid-feedback">Title required</div>
+    <div [hidden]="!postBody.errors?.minlength" class="invalid-feedback">Must be a least 5 characters</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

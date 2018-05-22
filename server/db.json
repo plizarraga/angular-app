@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "title": "Angular",
+      "body": "Angular is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "Vue.js",
+      "body": "Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable."
+    },
+    {
+      "id": 4,
+      "title": "JavaScript",
+      "body": "JavaScript is a scripting or programming language that allows you to implement complex things on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc."
+    },
+    {
+      "title": "Meteor JS",
+      "body": "Meteor is an open source platform for  web, mobile, and desktop.",
+      "id": 5
+    },
+    {
+      "title": "Ruby on Rails",
+      "body": "A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.",
+      "id": 9
+    },
+    {
+      "title": "Test",
+      "body": "New body",
+      "id": 10
+    },
+    {
+      "title": "Test",
+      "body": "Test body",
+      "id": 11
+    }
+  ]
+}
